@@ -45,7 +45,6 @@
     display: none;
 }
 
-/*.active-link,*/
 .nav-link:hover {
     transform: scale(1.1);
     color: #000;

@@ -9,7 +9,7 @@ const HomePage = () => {
         <h3 className="home-sub">Computer Science Major</h3>
         <p className="description">I'm a 4th year Computer Science major at UCR!</p>
 
-        <a href="" className="button">Nothing</a>
+        <a href="https://github.com/" className="button">Nothing</a>
     </div>
   )
 }

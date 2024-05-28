@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/* Font related */
 :root {
   --header-height: 3rem;
   --hue: 0;
@@ -11,7 +10,6 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
-    /*Font style and sizes*/
   --body-font: "Open Sans", sans-serif;
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
