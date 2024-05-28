@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './header.css';
 
-export const Header = () => {
+const Header = () => {
 
   const [Toggle, openMenu] = useState(false);
 
   return (
     <header className="header">
-      <nav className="nav container">
+      <nav className="nav">
         <a href="index.html" className="nav-logo">
           Lim
         </a>
@@ -15,7 +15,7 @@ export const Header = () => {
         <div className={Toggle ? "nav-menu open-menu" : "nav-menu"}>
           <ul className="nav-list grid">
             <li className="nav-item">
-              <a href="#home" className="nav-link active-link">
+              <a href="#home" className="nav-link">
                 <i className="uil uil-home nav-icon"></i>
                 Home
               </a>
@@ -51,3 +51,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header

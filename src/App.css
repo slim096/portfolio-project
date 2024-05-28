@@ -153,6 +153,10 @@ img {
   align-items: center;
 }
 
+.main {
+  padding-top: calc(var(--header-height) + 1.5rem);
+}
+
 @media screen and (max-width: 990px) {
   .container {
     margin-left: var(--margin-b-1-5);
@@ -167,6 +171,10 @@ img {
 }
 
 @media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
   .container {
     margin-left: var(--margin-b-1);
     margin-right: var(--margin-b-1);
