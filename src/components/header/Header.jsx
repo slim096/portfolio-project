@@ -45,7 +45,7 @@ const Header = () => {
           <i className="uil uil-times-square nav-close" onClick={() => openMenu(!Toggle)}></i>
         </div>
         <div className="nav-toggle" onClick={() => openMenu(!Toggle)}>
-            <i class="uil uil-bars"></i>
+            <i className="uil uil-bars"></i>
         </div>
       </nav>
     </header>
