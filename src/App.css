@@ -7,8 +7,8 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: navy;
-  --container-color: #fff;
+  --body-color: tan;
+  --container-color: tan;
 
   --body-font: "Open Sans", sans-serif;
   --big-font-size: 3.5rem;
